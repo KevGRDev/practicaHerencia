@@ -1,0 +1,14 @@
+C:\Users\vinke\source\repos\practicaHerencia\practicaHerencia\bin\Debug\practicaHerencia.exe.config
+C:\Users\vinke\source\repos\practicaHerencia\practicaHerencia\bin\Debug\practicaHerencia.exe
+C:\Users\vinke\source\repos\practicaHerencia\practicaHerencia\bin\Debug\practicaHerencia.pdb
+C:\Users\vinke\source\repos\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.csproj.AssemblyReference.cache
+C:\Users\vinke\source\repos\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.frmBase.resources
+C:\Users\vinke\source\repos\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.Properties.Resources.resources
+C:\Users\vinke\source\repos\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.csproj.GenerateResource.cache
+C:\Users\vinke\source\repos\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.csproj.CoreCompileInputs.cache
+C:\Users\vinke\source\repos\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.exe
+C:\Users\vinke\source\repos\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.pdb
+C:\Users\vinke\source\repos\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.frmOperaciones.resources
+C:\Users\vinke\source\repos\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.frmAbrir.resources
+C:\Users\vinke\source\repos\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.frmRetirar.resources
+C:\Users\vinke\source\repos\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.frmDepositar.resources
