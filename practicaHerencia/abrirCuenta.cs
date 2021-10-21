@@ -8,7 +8,9 @@ namespace practicaHerencia
 {
     class abrirCuenta
     {
-        float saldo;
-        public abrirCuenta();
+        
+
     }
+
+    
 }
