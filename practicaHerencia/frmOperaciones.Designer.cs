@@ -46,6 +46,7 @@ namespace practicaHerencia
             this.btnAbrir.TabIndex = 2;
             this.btnAbrir.Text = "Abrir cuenta con $1000";
             this.btnAbrir.UseVisualStyleBackColor = false;
+            this.btnAbrir.Click += new System.EventHandler(this.btnAbrir_Click);
             // 
             // btnRetirar
             // 
@@ -57,6 +58,7 @@ namespace practicaHerencia
             this.btnRetirar.TabIndex = 3;
             this.btnRetirar.Text = "Retirar";
             this.btnRetirar.UseVisualStyleBackColor = false;
+            this.btnRetirar.Click += new System.EventHandler(this.btnRetirar_Click_1);
             // 
             // btnDepositar
             // 
@@ -68,6 +70,7 @@ namespace practicaHerencia
             this.btnDepositar.TabIndex = 4;
             this.btnDepositar.Text = "Depositar";
             this.btnDepositar.UseVisualStyleBackColor = false;
+            this.btnDepositar.Click += new System.EventHandler(this.btnDepositar_Click);
             // 
             // label2
             // 
@@ -104,7 +107,7 @@ namespace practicaHerencia
             this.Controls.Add(this.btnRetirar);
             this.Controls.Add(this.btnAbrir);
             this.Name = "frmOperaciones";
-            this.Text = "frmOperaciones";
+            this.Text = "Banco las Americas";
             this.Load += new System.EventHandler(this.frmOperaciones_Load);
             this.Controls.SetChildIndex(this.btnAbrir, 0);
             this.Controls.SetChildIndex(this.btnRetirar, 0);

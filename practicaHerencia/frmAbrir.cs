@@ -41,5 +41,15 @@ namespace practicaHerencia
         {
 
         }
+
+        private void txAbrir_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnRetirar_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -31,5 +31,28 @@ namespace practicaHerencia
         {
 
         }
+
+        private void btnAbrir_Click(object sender, EventArgs e)
+        {
+            frmAbrir nvCuenta = new frmAbrir();
+            this.Hide();
+            nvCuenta.Show();
+        }
+
+     
+
+        private void btnRetirar_Click_1(object sender, EventArgs e)
+        {
+            frmRetirar retirar = new frmRetirar();
+            this.Hide();
+            retirar.Show();
+        }
+
+        private void btnDepositar_Click(object sender, EventArgs e)
+        {
+            frmDepositar depositar = new frmDepositar();
+            this.Hide();
+            depositar.Show();
+        }
     }
 }

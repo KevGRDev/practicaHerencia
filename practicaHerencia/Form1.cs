@@ -21,5 +21,20 @@ namespace practicaHerencia
         {
 
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void frmBase_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

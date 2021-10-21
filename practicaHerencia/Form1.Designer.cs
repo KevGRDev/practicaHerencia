@@ -55,6 +55,7 @@ namespace practicaHerencia
             this.btnSalir.TabIndex = 1;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // frmBase
             // 
@@ -66,6 +67,7 @@ namespace practicaHerencia
             this.Controls.Add(this.label1);
             this.Name = "frmBase";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.frmBase_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
