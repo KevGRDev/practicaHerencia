@@ -31,7 +31,7 @@ namespace practicaHerencia
         {
             this.label2 = new System.Windows.Forms.Label();
             this.txDeposito = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lbSaldo = new System.Windows.Forms.Label();
             this.lbActual = new System.Windows.Forms.Label();
             this.btnDeposito = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -55,14 +55,15 @@ namespace practicaHerencia
             this.txDeposito.Size = new System.Drawing.Size(100, 20);
             this.txDeposito.TabIndex = 9;
             // 
-            // label3
+            // lbSaldo
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(168, 217);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(72, 13);
-            this.label3.TabIndex = 10;
-            this.label3.Text = "Saldo actual: ";
+            this.lbSaldo.AutoSize = true;
+            this.lbSaldo.Location = new System.Drawing.Point(168, 217);
+            this.lbSaldo.Name = "lbSaldo";
+            this.lbSaldo.Size = new System.Drawing.Size(72, 13);
+            this.lbSaldo.TabIndex = 10;
+            this.lbSaldo.Text = "Saldo actual: ";
+            this.lbSaldo.Click += new System.EventHandler(this.lbSaldo_Click);
             // 
             // lbActual
             // 
@@ -72,6 +73,7 @@ namespace practicaHerencia
             this.lbActual.Size = new System.Drawing.Size(62, 13);
             this.lbActual.TabIndex = 11;
             this.lbActual.Text = "saldoActual";
+            this.lbActual.Click += new System.EventHandler(this.lbActual_Click);
             // 
             // btnDeposito
             // 
@@ -92,7 +94,7 @@ namespace practicaHerencia
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnDeposito);
             this.Controls.Add(this.lbActual);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lbSaldo);
             this.Controls.Add(this.txDeposito);
             this.Controls.Add(this.label2);
             this.Name = "frmDepositar";
@@ -100,7 +102,7 @@ namespace practicaHerencia
             this.Load += new System.EventHandler(this.frmDepositar_Load);
             this.Controls.SetChildIndex(this.label2, 0);
             this.Controls.SetChildIndex(this.txDeposito, 0);
-            this.Controls.SetChildIndex(this.label3, 0);
+            this.Controls.SetChildIndex(this.lbSaldo, 0);
             this.Controls.SetChildIndex(this.lbActual, 0);
             this.Controls.SetChildIndex(this.btnDeposito, 0);
             this.ResumeLayout(false);
@@ -112,7 +114,7 @@ namespace practicaHerencia
 
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txDeposito;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lbSaldo;
         private System.Windows.Forms.Label lbActual;
         private System.Windows.Forms.Button btnDeposito;
     }

@@ -19,6 +19,8 @@ namespace practicaHerencia
 
         private void frmDepositar_Load(object sender, EventArgs e)
         {
+            lbActual.Visible = false;
+            lbSaldo.Visible = false;
 
         }
 
@@ -30,6 +32,17 @@ namespace practicaHerencia
         private void btnDeposito_Click(object sender, EventArgs e)
         {
             Depositos depositos = new Depositos();
+            depositos.Depo = Convert.ToSingle(txDeposito.Text);
+        }
+
+        private void lbActual_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbSaldo_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
