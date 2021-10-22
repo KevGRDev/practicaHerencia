@@ -50,8 +50,15 @@ namespace practicaHerencia
                 {
                 lbSaldo.Visible = true;
                 lbSaldores.Visible = false;
-                lbSaldo.Text = Convert.ToString("No puedes retirar más del almacenado");
+                lbSaldo.Text = Convert.ToString("Cantidad invalida (Solo billetes)");
                 }
+
+            }
+            else
+            {
+                lbSaldo.Visible = true;
+                lbSaldores.Visible = false;
+                lbSaldo.Text = Convert.ToString("No puedes retirar más del almacenado");
             }
         }
     }
