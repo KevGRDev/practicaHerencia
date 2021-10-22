@@ -33,7 +33,7 @@ namespace practicaHerencia
             hacerRetiro retirar = new hacerRetiro();
             retirar.Retiro = Convert.ToSingle(txCantidad.Text);
             
-            if(retirar.Retiro>0)
+            if(retirar.Retiro>20)
             {
 
                 lbSaldores.Visible = true;
@@ -43,7 +43,7 @@ namespace practicaHerencia
                
 
             }
-            else
+            else 
             {
                 lbSaldo.Visible = true;
                 lbSaldores.Visible = false;

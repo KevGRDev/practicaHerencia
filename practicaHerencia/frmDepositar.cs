@@ -26,5 +26,10 @@ namespace practicaHerencia
         {
 
         }
+
+        private void btnDeposito_Click(object sender, EventArgs e)
+        {
+            Depositos depositos = new Depositos();
+        }
     }
 }

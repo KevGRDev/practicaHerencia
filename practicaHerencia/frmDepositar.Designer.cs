@@ -83,6 +83,7 @@ namespace practicaHerencia
             this.btnDeposito.TabIndex = 12;
             this.btnDeposito.Text = "Depositar";
             this.btnDeposito.UseVisualStyleBackColor = false;
+            this.btnDeposito.Click += new System.EventHandler(this.btnDeposito_Click);
             // 
             // frmDepositar
             // 
