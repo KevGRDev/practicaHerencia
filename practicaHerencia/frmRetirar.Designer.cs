@@ -72,6 +72,7 @@ namespace practicaHerencia
             this.lbSaldo.Size = new System.Drawing.Size(51, 13);
             this.lbSaldo.TabIndex = 10;
             this.lbSaldo.Text = "saldoRes";
+            this.lbSaldo.Click += new System.EventHandler(this.lbSaldo_Click);
             // 
             // btnRetiro
             // 

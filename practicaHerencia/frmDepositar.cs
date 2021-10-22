@@ -33,6 +33,9 @@ namespace practicaHerencia
         {
             Depositos depositos = new Depositos();
             depositos.Depo = Convert.ToSingle(txDeposito.Text);
+            lbActual.Visible = true;
+            lbSaldo.Visible = true;
+            lbActual.Text = Convert.ToString(depositos.Suma());
         }
 
         private void lbActual_Click(object sender, EventArgs e)

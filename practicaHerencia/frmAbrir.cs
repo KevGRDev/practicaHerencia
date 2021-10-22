@@ -51,7 +51,7 @@ namespace practicaHerencia
         {
             abrirCuenta abrir = new abrirCuenta();
             abrir.Saldo = Convert.ToSingle(txAbrir.Text);
-            if(abrir.Saldo>1000)
+            if(abrir.Saldo>=1000)
             {
                 MessageBox.Show("Cuenta generada cone exito!");
             }

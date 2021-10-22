@@ -61,5 +61,10 @@ namespace practicaHerencia
                 lbSaldo.Text = Convert.ToString("No puedes retirar más del almacenado");
             }
         }
+
+        private void lbSaldo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
