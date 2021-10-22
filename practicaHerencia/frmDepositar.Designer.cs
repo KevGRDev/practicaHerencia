@@ -33,6 +33,7 @@ namespace practicaHerencia
             this.txDeposito = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.lbActual = new System.Windows.Forms.Label();
+            this.btnDeposito = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label2
@@ -72,11 +73,23 @@ namespace practicaHerencia
             this.lbActual.TabIndex = 11;
             this.lbActual.Text = "saldoActual";
             // 
+            // btnDeposito
+            // 
+            this.btnDeposito.BackColor = System.Drawing.Color.Chocolate;
+            this.btnDeposito.ForeColor = System.Drawing.Color.Maroon;
+            this.btnDeposito.Location = new System.Drawing.Point(526, 217);
+            this.btnDeposito.Name = "btnDeposito";
+            this.btnDeposito.Size = new System.Drawing.Size(112, 34);
+            this.btnDeposito.TabIndex = 12;
+            this.btnDeposito.Text = "Depositar";
+            this.btnDeposito.UseVisualStyleBackColor = false;
+            // 
             // frmDepositar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnDeposito);
             this.Controls.Add(this.lbActual);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txDeposito);
@@ -88,6 +101,7 @@ namespace practicaHerencia
             this.Controls.SetChildIndex(this.txDeposito, 0);
             this.Controls.SetChildIndex(this.label3, 0);
             this.Controls.SetChildIndex(this.lbActual, 0);
+            this.Controls.SetChildIndex(this.btnDeposito, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -99,5 +113,6 @@ namespace practicaHerencia
         private System.Windows.Forms.TextBox txDeposito;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lbActual;
+        private System.Windows.Forms.Button btnDeposito;
     }
 }
