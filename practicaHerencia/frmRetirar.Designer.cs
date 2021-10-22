@@ -31,7 +31,7 @@ namespace practicaHerencia
         {
             this.label2 = new System.Windows.Forms.Label();
             this.txCantidad = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lbSaldores = new System.Windows.Forms.Label();
             this.lbSaldo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -54,14 +54,14 @@ namespace practicaHerencia
             this.txCantidad.Size = new System.Drawing.Size(100, 20);
             this.txCantidad.TabIndex = 8;
             // 
-            // label3
+            // lbSaldores
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(120, 250);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 13);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Saldo restante: ";
+            this.lbSaldores.AutoSize = true;
+            this.lbSaldores.Location = new System.Drawing.Point(120, 250);
+            this.lbSaldores.Name = "lbSaldores";
+            this.lbSaldores.Size = new System.Drawing.Size(81, 13);
+            this.lbSaldores.TabIndex = 9;
+            this.lbSaldores.Text = "Saldo restante: ";
             // 
             // lbSaldo
             // 
@@ -78,7 +78,7 @@ namespace practicaHerencia
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lbSaldo);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lbSaldores);
             this.Controls.Add(this.txCantidad);
             this.Controls.Add(this.label2);
             this.Name = "frmRetirar";
@@ -86,7 +86,7 @@ namespace practicaHerencia
             this.Load += new System.EventHandler(this.frmRetirar_Load);
             this.Controls.SetChildIndex(this.label2, 0);
             this.Controls.SetChildIndex(this.txCantidad, 0);
-            this.Controls.SetChildIndex(this.label3, 0);
+            this.Controls.SetChildIndex(this.lbSaldores, 0);
             this.Controls.SetChildIndex(this.lbSaldo, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -97,7 +97,7 @@ namespace practicaHerencia
 
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txCantidad;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lbSaldores;
         private System.Windows.Forms.Label lbSaldo;
     }
 }

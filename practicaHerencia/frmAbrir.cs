@@ -34,12 +34,12 @@ namespace practicaHerencia
 
         private void label3_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label4_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void txAbrir_TextChanged(object sender, EventArgs e)
@@ -49,7 +49,16 @@ namespace practicaHerencia
 
         private void btnRetirar_Click_1(object sender, EventArgs e)
         {
-
+            abrirCuenta abrir = new abrirCuenta();
+            abrir.Saldo = Convert.ToSingle(txAbrir.Text);
+            if(abrir.Saldo==1000)
+            {
+                MessageBox.Show("Cuenta generada cone exito!");
+            }
+            else
+            {
+                lbError.Visible = true;
+            }
         }
     }
 }

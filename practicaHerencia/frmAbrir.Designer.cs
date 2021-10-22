@@ -31,7 +31,6 @@ namespace practicaHerencia
         {
             this.label2 = new System.Windows.Forms.Label();
             this.txAbrir = new System.Windows.Forms.TextBox();
-            this.lbExito = new System.Windows.Forms.Label();
             this.lbError = new System.Windows.Forms.Label();
             this.btnValidar = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -55,18 +54,6 @@ namespace practicaHerencia
             this.txAbrir.Size = new System.Drawing.Size(100, 20);
             this.txAbrir.TabIndex = 7;
             this.txAbrir.TextChanged += new System.EventHandler(this.txAbrir_TextChanged);
-            // 
-            // lbExito
-            // 
-            this.lbExito.AutoSize = true;
-            this.lbExito.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbExito.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.lbExito.Location = new System.Drawing.Point(331, 272);
-            this.lbExito.Name = "lbExito";
-            this.lbExito.Size = new System.Drawing.Size(191, 17);
-            this.lbExito.TabIndex = 8;
-            this.lbExito.Text = "Cuenta generada con exito";
-            this.lbExito.Click += new System.EventHandler(this.label3_Click);
             // 
             // lbError
             // 
@@ -99,7 +86,6 @@ namespace practicaHerencia
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnValidar);
             this.Controls.Add(this.lbError);
-            this.Controls.Add(this.lbExito);
             this.Controls.Add(this.txAbrir);
             this.Controls.Add(this.label2);
             this.Name = "frmAbrir";
@@ -107,7 +93,6 @@ namespace practicaHerencia
             this.Load += new System.EventHandler(this.frmAbrir_Load);
             this.Controls.SetChildIndex(this.label2, 0);
             this.Controls.SetChildIndex(this.txAbrir, 0);
-            this.Controls.SetChildIndex(this.lbExito, 0);
             this.Controls.SetChildIndex(this.lbError, 0);
             this.Controls.SetChildIndex(this.btnValidar, 0);
             this.ResumeLayout(false);
@@ -119,7 +104,6 @@ namespace practicaHerencia
 
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txAbrir;
-        private System.Windows.Forms.Label lbExito;
         private System.Windows.Forms.Label lbError;
         private System.Windows.Forms.Button btnValidar;
     }
