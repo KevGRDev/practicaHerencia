@@ -19,7 +19,7 @@ namespace practicaHerencia
 
         private void frmAbrir_Load(object sender, EventArgs e)
         {
-
+            lbError.Visible = false;
         }
 
         private void label2_Click(object sender, EventArgs e)
