@@ -33,19 +33,21 @@ namespace practicaHerencia
             hacerRetiro retirar = new hacerRetiro();
             retirar.Retiro = Convert.ToSingle(txCantidad.Text);
             
-            if(retirar.Retiro<0)
+            if(retirar.Retiro>0)
             {
-                lbSaldo.Visible = false;
-                lbSaldores.Visible =false;
-                MessageBox.Show("No puedes retirar una cantidad mayor al total");
 
-            }
-            else
-            {
                 lbSaldores.Visible = true;
                 lbSaldo.Visible = true;
 
                 lbSaldo.Text = Convert.ToString(retirar.Retirar());
+               
+
+            }
+            else
+            {
+                lbSaldo.Visible = true;
+                lbSaldores.Visible = false;
+                lbSaldo.Text = Convert.ToString("No puedes retirar más del almacenado");
             }
         }
     }
