@@ -33,6 +33,7 @@ namespace practicaHerencia
             this.txCantidad = new System.Windows.Forms.TextBox();
             this.lbSaldores = new System.Windows.Forms.Label();
             this.lbSaldo = new System.Windows.Forms.Label();
+            this.btnRetiro = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label2
@@ -72,11 +73,24 @@ namespace practicaHerencia
             this.lbSaldo.TabIndex = 10;
             this.lbSaldo.Text = "saldoRes";
             // 
+            // btnRetiro
+            // 
+            this.btnRetiro.BackColor = System.Drawing.Color.Chocolate;
+            this.btnRetiro.ForeColor = System.Drawing.Color.Maroon;
+            this.btnRetiro.Location = new System.Drawing.Point(631, 265);
+            this.btnRetiro.Name = "btnRetiro";
+            this.btnRetiro.Size = new System.Drawing.Size(112, 34);
+            this.btnRetiro.TabIndex = 11;
+            this.btnRetiro.Text = "Retirar";
+            this.btnRetiro.UseVisualStyleBackColor = false;
+            this.btnRetiro.Click += new System.EventHandler(this.btnRetiro_Click);
+            // 
             // frmRetirar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnRetiro);
             this.Controls.Add(this.lbSaldo);
             this.Controls.Add(this.lbSaldores);
             this.Controls.Add(this.txCantidad);
@@ -88,6 +102,7 @@ namespace practicaHerencia
             this.Controls.SetChildIndex(this.txCantidad, 0);
             this.Controls.SetChildIndex(this.lbSaldores, 0);
             this.Controls.SetChildIndex(this.lbSaldo, 0);
+            this.Controls.SetChildIndex(this.btnRetiro, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -99,5 +114,6 @@ namespace practicaHerencia
         private System.Windows.Forms.TextBox txCantidad;
         private System.Windows.Forms.Label lbSaldores;
         private System.Windows.Forms.Label lbSaldo;
+        private System.Windows.Forms.Button btnRetiro;
     }
 }

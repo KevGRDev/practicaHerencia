@@ -19,12 +19,34 @@ namespace practicaHerencia
 
         private void frmRetirar_Load(object sender, EventArgs e)
         {
-
+            lbSaldores.Visible = false;
+            lbSaldo.Visible = false;
         }
 
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnRetiro_Click(object sender, EventArgs e)
+        {
+            hacerRetiro retirar = new hacerRetiro();
+            retirar.Retiro = Convert.ToSingle(txCantidad.Text);
+            
+            if(retirar.Retiro<0)
+            {
+                lbSaldo.Visible = false;
+                lbSaldores.Visible =false;
+                MessageBox.Show("No puedes retirar una cantidad mayor al total");
+
+            }
+            else
+            {
+                lbSaldores.Visible = true;
+                lbSaldo.Visible = true;
+
+                lbSaldo.Text = Convert.ToString(retirar.Retirar());
+            }
         }
     }
 }
