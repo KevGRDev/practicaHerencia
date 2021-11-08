@@ -16,7 +16,7 @@ namespace practicaHerencia
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmOperaciones());
+            Application.Run(new frmAbrir());
         }
     }
 }

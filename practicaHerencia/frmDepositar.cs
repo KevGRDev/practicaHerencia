@@ -12,6 +12,12 @@ namespace practicaHerencia
 {
     public partial class frmDepositar : frmBase
     {
+
+        private float balance2;
+        private float deposito;
+
+        public float Balance2 { get => balance2; set => balance2 = value; }
+
         public frmDepositar()
         {
             InitializeComponent();
@@ -31,11 +37,14 @@ namespace practicaHerencia
 
         private void btnDeposito_Click(object sender, EventArgs e)
         {
-            Depositos depositos = new Depositos();
-            depositos.Depo = Convert.ToSingle(txDeposito.Text);
+            deposito = Convert.ToSingle(txDeposito.Text);
+
+            Balance2 = Convert.ToSingle(Balance2) + Convert.ToSingle(deposito);
+
+            lbActual.Text = Convert.ToString(Balance2);
             lbActual.Visible = true;
             lbSaldo.Visible = true;
-            lbActual.Text = Convert.ToString(depositos.Suma());
+            
         }
 
         private void lbActual_Click(object sender, EventArgs e)

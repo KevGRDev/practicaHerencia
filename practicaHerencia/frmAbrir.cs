@@ -49,16 +49,44 @@ namespace practicaHerencia
 
         private void btnRetirar_Click_1(object sender, EventArgs e)
         {
+            frmOperaciones menu = new frmOperaciones();
+
             abrirCuenta abrir = new abrirCuenta();
-            abrir.Saldo = Convert.ToSingle(txAbrir.Text);
-            if(abrir.Saldo>=1000)
+
+            abrir.Saldo = Convert.ToSingle(txtAbrir.Text);
+
+            if (abrir.Saldo >= 1000)
             {
-                MessageBox.Show("Cuenta generada cone exito!");
+                MessageBox.Show("Cuenta generada con exito!");
+
+                menu.Name = txNombre.Text;
+                menu.Nip = Convert.ToSingle(txtNip.Text);
+                menu.Balance = Convert.ToSingle(txtAbrir.Text);
+
+                this.Hide();
+                menu.Show();
+
             }
             else
             {
                 lbError.Visible = true;
             }
+        }
+
+        private void txtAbrir_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnContinue_Click(object sender, EventArgs e)
+        {
+            
+           
+        }
+
+        private void txtNip_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

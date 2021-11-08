@@ -12,6 +12,13 @@ namespace practicaHerencia
 {
     public partial class frmRetirar : frmBase
     {
+
+
+        private float balance1;
+        private float retiro;
+
+        public float Balance1 { get => balance1; set => balance1 = value; }
+
         public frmRetirar()
         {
             InitializeComponent();
@@ -30,19 +37,22 @@ namespace practicaHerencia
 
         private void btnRetiro_Click(object sender, EventArgs e)
         {
-            hacerRetiro retirar = new hacerRetiro();
-            retirar.Retiro = Convert.ToSingle(txCantidad.Text);
+            
+            retiro = Convert.ToSingle(txCantidad.Text);
 
-            if (retirar.Retiro <=1000)
+            this.Balance1 = this.Balance1 - Convert.ToSingle(retiro);
+
+
+            if (this.Balance1 <= Balance1)
             {
 
-                if(retirar.Retiro>=20)
+                if(this.Balance1>=20)
                 {
 
                 lbSaldores.Visible = true;
                 lbSaldo.Visible = true;
 
-                lbSaldo.Text = Convert.ToString(retirar.Retirar());
+                lbSaldo.Text = Convert.ToString(this.Balance1);
                
 
                  }
@@ -50,7 +60,7 @@ namespace practicaHerencia
                 {
                 lbSaldo.Visible = true;
                 lbSaldores.Visible = false;
-                lbSaldo.Text = Convert.ToString("Cantidad invalida (Solo billetes)");
+                lbSaldo.Text = Convert.ToString(this.Balance1);
                 }
 
             }
