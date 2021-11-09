@@ -12,3 +12,17 @@ C:\Users\vinke\source\repos\practicaHerencia\practicaHerencia\obj\Debug\practica
 C:\Users\vinke\source\repos\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.frmAbrir.resources
 C:\Users\vinke\source\repos\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.frmRetirar.resources
 C:\Users\vinke\source\repos\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.frmDepositar.resources
+M:\Escritorio\Codigo banco visual\practicaHerencia\practicaHerencia\bin\Debug\practicaHerencia.exe.config
+M:\Escritorio\Codigo banco visual\practicaHerencia\practicaHerencia\bin\Debug\practicaHerencia.exe
+M:\Escritorio\Codigo banco visual\practicaHerencia\practicaHerencia\bin\Debug\practicaHerencia.pdb
+M:\Escritorio\Codigo banco visual\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.csproj.AssemblyReference.cache
+M:\Escritorio\Codigo banco visual\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.frmBase.resources
+M:\Escritorio\Codigo banco visual\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.frmAbrir.resources
+M:\Escritorio\Codigo banco visual\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.frmDepositar.resources
+M:\Escritorio\Codigo banco visual\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.frmOperaciones.resources
+M:\Escritorio\Codigo banco visual\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.frmRetirar.resources
+M:\Escritorio\Codigo banco visual\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.Properties.Resources.resources
+M:\Escritorio\Codigo banco visual\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.csproj.GenerateResource.cache
+M:\Escritorio\Codigo banco visual\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.csproj.CoreCompileInputs.cache
+M:\Escritorio\Codigo banco visual\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.exe
+M:\Escritorio\Codigo banco visual\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.pdb

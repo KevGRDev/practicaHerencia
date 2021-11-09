@@ -12,11 +12,11 @@ namespace practicaHerencia
 {
     public partial class frmDepositar : frmBase
     {
-
         private float balance2;
         private float deposito;
 
         public float Balance2 { get => balance2; set => balance2 = value; }
+        
 
         public frmDepositar()
         {
@@ -39,9 +39,10 @@ namespace practicaHerencia
         {
             deposito = Convert.ToSingle(txDeposito.Text);
 
-            Balance2 = Convert.ToSingle(Balance2) + Convert.ToSingle(deposito);
+            this.Balance2 = this.Balance2 + Convert.ToSingle(deposito);
+          
 
-            lbActual.Text = Convert.ToString(Balance2);
+            lbActual.Text = Convert.ToString(this.Balance2);
             lbActual.Visible = true;
             lbSaldo.Visible = true;
             
