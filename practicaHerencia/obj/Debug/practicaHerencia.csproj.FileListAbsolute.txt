@@ -26,3 +26,4 @@ M:\Escritorio\Codigo banco visual\practicaHerencia\practicaHerencia\obj\Debug\pr
 M:\Escritorio\Codigo banco visual\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.csproj.CoreCompileInputs.cache
 M:\Escritorio\Codigo banco visual\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.exe
 M:\Escritorio\Codigo banco visual\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.pdb
+M:\Escritorio\Codigo banco visual\practicaHerencia\practicaHerencia\obj\Debug\practicaHerencia.csproj.SuggestedBindingRedirects.cache

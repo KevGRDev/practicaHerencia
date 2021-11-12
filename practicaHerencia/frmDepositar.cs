@@ -27,7 +27,7 @@ namespace practicaHerencia
         {
             lbActual.Visible = false;
             lbSaldo.Visible = false;
-
+            this.Balance2 = this.Balance2;
         }
 
         private void label2_Click(object sender, EventArgs e)

@@ -70,6 +70,7 @@ namespace practicaHerencia
         private void btnDepositar_Click(object sender, EventArgs e)
         {
             frmDepositar depositar = new frmDepositar();
+            depositar.Balance2= Convert.ToSingle(this.Balance);
             this.Hide();
             depositar.Show();
         }
